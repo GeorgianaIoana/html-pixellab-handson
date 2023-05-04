@@ -16,7 +16,37 @@
 </head>
 
 <body>
-  <form>
+  <form action="/">
+    <input
+      name="name"
+      placeholder="Nume"
+      required
+    >
+
+    <input
+      name="surname"
+      placeholder="Prenume"
+      required
+    >
+    <input
+      name="username"
+      placeholder="Nume de utilizator"
+      maxlength="25"
+      minlength="3"
+      type="text"
+    >
+    <input
+      name="email"
+      placeholder="email@email.com"
+      required
+      type="email"
+    >
+    <input
+      name="phone"
+      placeholder="email@email.com"
+      type="tel"
+      required
+    >
 
     <button type="submit">Trimite</button>
   </form>
