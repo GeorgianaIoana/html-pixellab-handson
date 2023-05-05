@@ -40,6 +40,11 @@ a[href*='.com'] {
   color: black;
 }
 
-.line.odd {
+.odd .line {
   color: blue;
+}
+
+a[href^="https://google.com"]
+{
+  color: yellow;
 }
