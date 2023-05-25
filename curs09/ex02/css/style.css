@@ -21,11 +21,7 @@
   border: 1px solid red;
 }
 
-.stage-01 {
-  display: flex;
-  justify-content: center; /* Centrează orizontal elementele */
-  align-items: center; /* Centrează vertical elementele */
-}
+/* insert code */
 
 .stage-02 {
   display: flex;
@@ -34,7 +30,6 @@
 }
 
 .stage-03 {
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
