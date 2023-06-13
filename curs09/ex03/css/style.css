@@ -17,6 +17,6 @@
   float: right;
 }
 
-.card img {
+.card .float-left {
   float: none;
 }
